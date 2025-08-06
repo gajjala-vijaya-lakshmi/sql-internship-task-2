@@ -52,7 +52,8 @@ CREATE TABLE Fines (
 
 -- Insert Data
 
-INSERT INTO Categories (CategoryName) VALUES ('Technology'), ('Fiction'), ('Science');
+INSERT INTO Categories (CategoryName)
+VALUES ('Technology', 'Fiction', 'Science');
 
 INSERT INTO Books (Title, Author, ISBN, PublishedYear, CategoryID)
 VALUES ('Database Systems', 'Navathe', '3344', 2023, 1),
